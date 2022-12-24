@@ -1,5 +1,5 @@
-const ACESS_TOKEN = "accessToken";
-const MOD_TOKEN = "modToken";
+const ACESS_TOKEN = 'accessToken';
+const MOD_TOKEN = 'modToken';
 
 export const getAccessToken = () => localStorage.getItem(ACESS_TOKEN);
 export const setAccessToken = (token) =>
